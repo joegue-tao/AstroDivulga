@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="1er Concurso Anual de Arte Astronómico — Escuela Preparatoria No. 44 Plan de Ayutla, Guerrero. Iniciativa STEAM de apropiación social del conocimiento.">
+  <title>1er Concurso Anual de Arte Astronómico | Preparatoria No. 44 "Plan de Ayutla"</title>
+  <!-- Tipografías editoriales y técnicas (Inter + Merriweather) con respaldo nativo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- BARRA INSTITUCIONAL SUPERIOR (Estilo NASA / Nature) -->
+  <div class="top-utility-bar">
+    <div class="container utility-inner">
+      <span>ESCUELA PREPARATORIA NO. 44 "PLAN DE AYUTLA" • UAGRO</span>
+      <span>AYUTLA DE LOS LIBRES, GUERRERO • EDICIÓN 2026</span>
+    </div>
+  </div>
+
+  <!-- CABECERA PRINCIPAL -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Inicio - Concurso de Arte Astronómico">
+        <span class="brand-mark" aria-hidden="true">44</span>
+        <div class="brand-text">
+          <span class="brand-title">Arte Astronómico</span>
+          <span class="brand-sub">Iniciativa STEAM &amp; Divulgación</span>
+        </div>
+      </a>
+
+      <nav aria-label="Navegación principal" class="main-nav">
+        <ul>
+          <li><a href="#inicio">Misión</a></li>
+          <li><a href="#bases">Convocatoria</a></li>
+          <li><a href="#registro">Registro Digital</a></li>
+          <li><a href="#galeria">Archivo Visual</a></li>
+          <li><a href="#archivo">Mural Histórico</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido-principal">
+
+    <!-- 1. HERO EDITORIAL DE ALTO CONTRASTE (Inspiración NASA Horizon) -->
+    <section id="inicio" class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-main">
+          <p class="kicker"><span class="kicker-dot" aria-hidden="true"></span> CONVOCATORIA OFICIAL • DIVULGACIÓN CIENTÍFICA</p>
+          <h1 id="hero-heading">1er Concurso Anual de Arte Astronómico</h1>
+          <p class="hero-lead">
+            Una iniciativa autónoma de educación STEAM en bachillerato que transforma la observación del cosmos en creación material única y divulgación científica rigurosa.
+          </p>
+          <div class="hero-actions">
+            <a href="#registro" class="btn btn-mission">Enviar Propuesta Digital</a>
+            <a href="#bases" class="btn btn-outline-light">Consultar Bases</a>
+          </div>
+        </div>
+
+        <!-- Panel de Parámetros de Misión (Estilo NASA Data Box) -->
+        <aside class="mission-panel" aria-labelledby="panel-heading">
+          <div class="panel-header">
+            <h2 id="panel-heading">PARÁMETROS DEL CERTAMEN</h2>
+            <span class="status-badge">CONVOCATORIA ABIERTA</span>
+          </div>
+          <dl class="mission-specs">
+            <div class="spec-row">
+              <dt>SEDE</dt>
+              <dd>Preparatoria No. 44 "Plan de Ayutla", Gro.</dd>
+            </div>
+            <div class="spec-row">
+              <dt>MODALIDAD</dt>
+              <dd>Híbrida (Recepción digital sin traslados)</dd>
+            </div>
+            <div class="spec-row">
+              <dt>REGLA TÉCNICA</dt>
+              <dd>Unicidad material (prohibido repetir medios)</dd>
+            </div>
+            <div class="spec-row">
+              <dt>REQUISITO</dt>
+              <dd>Obra + Motivación + Dato científico verificado</dd>
+            </div>
+            <div class="spec-row">
+              <dt>LEGADO 1ER LUGAR</dt>
+              <dd>Enmarcado permanente en Mural Institucional</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 2. BASES Y CONVOCATORIA (Estilo Editorial Nature: Fondo Blanco, Retícula Fina) -->
+    <section id="bases" class="section" aria-labelledby="bases-heading">
+      <div class="container">
+        <header class="editorial-header">
+          <p class="section-label">01 / PROTOCOLO DE PARTICIPACIÓN</p>
+          <h2 id="bases-heading">Bases y Metodología STEAM</h2>
+          <p class="section-intro">
+            El certamen evalúa tanto la recursividad plástica como la precisión en la comunicación pública de la astronomía.
+          </p>
+        </header>
+
+        <div class="editorial-grid three-cols">
+          <article class="editorial-item">
+            <span class="item-index">I. ACCESIBILIDAD</span>
+            <h3>Convocatoria Híbrida</h3>
+            <p>
+              Para eliminar barreras geográficas y costos de transporte, todo el proceso de inscripción y entrega de evidencia fotográfica se realiza de manera digital mediante este portal.
+            </p>
+          </article>
+
+          <article class="editorial-item">
+            <span class="item-index">II. RESTRICCIÓN CREATIVA</span>
+            <h3>Innovación Material</h3>
+            <p>
+              Queda estrictamente prohibido repetir medios o soportes entre concursantes. Si una técnica ya fue registrada (ej. acrílico), los siguientes participantes deberán optar por reciclaje, textiles, pigmentos naturales, cartonería o arte digital.
+            </p>
+          </article>
+
+          <article class="editorial-item">
+            <span class="item-index">III. RIGOR CIENTÍFICO</span>
+            <h3>Cédula de Divulgación</h3>
+            <p>
+              Cada pieza debe acompañarse de una ficha escrita con dos apartados: la motivación personal del autor y un dato astronómico curioso comprobado sobre el objeto celeste representado.
+            </p>
+          </article>
+        </div>
+
+        <!-- Tabla de Premiación (Estilo Nature Academic Table) -->
+        <div class="awards-block" role="region" aria-labelledby="awards-title">
+          <div class="awards-header">
+            <h3 id="awards-title">Distinciones e Impacto Institucional</h3>
+            <span>Modelo autónomo y sustentable</span>
+          </div>
+          <div class="awards-grid">
+            <div class="award-cell">
+              <span class="award-rank">PRIMER LUGAR</span>
+              <h4>Mural Permanente y Premio Temático</h4>
+              <p>Premio astronómico, diploma oficial y enmarcado permanente de la obra en el Mural de la Preparatoria No. 44.</p>
+            </div>
+            <div class="award-cell">
+              <span class="award-rank">SEGUNDO LUGAR</span>
+              <h4>Acervo de Divulgación</h4>
+              <p>Libro de divulgación científica accesible sobre astronomía o física y diploma oficial.</p>
+            </div>
+            <div class="award-cell">
+              <span class="award-rank">COMUNIDAD PARTICIPANTE</span>
+              <h4>Acreditación Curricular</h4>
+              <p>Certificado oficial de participación otorgado al 100 % de los estudiantes que completen su entrega.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. FORMULARIO DE REGISTRO DIGITAL -->
+    <section id="registro" class="section section-paper" aria-labelledby="registro-heading">
+      <div class="container narrow-container">
+        <header class="editorial-header">
+          <p class="section-label">02 / ENVÍO DE PROPUESTA</p>
+          <h2 id="registro-heading">Registro de Obra y Ficha Científica</h2>
+          <p class="section-intro">
+            Complete todos los campos obligatorios (<span aria-hidden="true">*</span>). Asegúrese de que el material elegido no haya sido apartado previamente.
+          </p>
+        </header>
+
+        <form class="editorial-form" action="#" method="post" enctype="multipart/form-data">
+          <fieldset>
+            <legend>Identificación del Autor</legend>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre completo *</label>
+                <input type="text" id="nombre" name="nombre" required autocomplete="name" placeholder="Nombre y apellidos">
+              </div>
+              <div class="form-group">
+                <label for="grupo">Semestre y grupo *</label>
+                <input type="text" id="grupo" name="grupo" required placeholder="Ej. 3° Semestre, Grupo A">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="correo">Correo electrónico institucional o personal *</label>
+              <input type="email" id="correo" name="correo" required autocomplete="email" placeholder="nombre@ejemplo.mx">
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Especificaciones de la Obra y Divulgación</legend>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="titulo-obra">Título de la obra *</label>
+                <input type="text" id="titulo-obra" name="titulo_obra" required placeholder="Título descriptivo o artístico">
+              </div>
+              <div class="form-group">
+                <label for="objeto-astro">Objeto o fenómeno astronómico *</label>
+                <input type="text" id="objeto-astro" name="objeto_astro" required placeholder="Ej. Nebulosa de Orión (M42)">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="tecnica">Medio o material único propuesto *</label>
+              <input type="text" id="tecnica" name="tecnica" required aria-describedby="tecnica-nota" placeholder="Ej. Ensamblaje con cartón reciclado y pigmentos minerales">
+              <small id="tecnica-nota" class="field-note">Sujeto a verificación de unicidad por el comité organizador.</small>
+            </div>
+
+            <div class="form-group">
+              <label for="motivacion">Motivación personal (máx. 120 palabras) *</label>
+              <textarea id="motivacion" name="motivacion" rows="3" maxlength="800" required placeholder="Explique el vínculo personal o conceptual entre el material elegido y el objeto astronómico..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="dato-curioso">Dato científico curioso del objeto elegido *</label>
+              <textarea id="dato-curioso" name="dato_curioso" rows="3" maxlength="800" required placeholder="Redacte un dato astronómico verificado que acompañará su obra en la exposición..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="archivo-obra">Fotografía digital de la obra (JPG, PNG o WebP • Máx. 10 MB) *</label>
+              <input type="file" id="archivo-obra" name="archivo_obra" accept="image/jpeg,image/png,image/webp" required>
+            </div>
+          </fieldset>
+
+          <button type="submit" class="btn btn-mission btn-full">Registrar Obra en el Certamen</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- 4. GALERÍA DIGITAL (Estilo Nature Articles / NASA Image Archive) -->
+    <section id="galeria" class="section" aria-labelledby="galeria-heading">
+      <div class="container">
+        <header class="editorial-header">
+          <p class="section-label">03 / CATÁLOGO DE DIVULGACIÓN</p>
+          <h2 id="galeria-heading">Galería Digital de Obras — Edición 2026</h2>
+          <p class="section-intro">
+            Cada ficha integra la propuesta plástica, el medio material exclusivo y la síntesis científica investigada por el estudiantado.
+          </p>
+        </header>
+
+        <div class="gallery-grid">
+          <!-- Obra 1 -->
+          <article class="catalog-card">
+            <figure class="catalog-figure">
+              <div class="catalog-placeholder" role="img" aria-label="Obra textil de la Nebulosa del Águila">
+                <span>FIGURA 01 • ARCHIVO DIGITAL</span>
+              </div>
+              <figcaption class="catalog-caption">
+                <span>MEDIO ÚNICO:</span> Bordado y retazos textiles reciclados
+              </figcaption>
+            </figure>
+            <div class="catalog-body">
+              <p class="catalog-meta">OBJETO: <strong>NEBULOSA DEL ÁGUILA (M16)</strong></p>
+              <h3>Vivero Estelar en Hilos</h3>
+              <p class="catalog-author">Por Sofía R. • 3° Semestre</p>
+              <p class="catalog-text">
+                <strong>Motivación:</strong> «Representé las columnas de gas interestelar utilizando telas sobrantes del taller familiar, vinculando el oficio textil local con la formación de estrellas.»
+              </p>
+              <aside class="science-note">
+                <span class="note-label">DATO CIENTÍFICO</span>
+                <p>Los Pilares de la Creación tienen una longitud aproximada de 4 a 5 años luz, pero constituyen solo una pequeña región de M16, situada a 6,500 años luz de la Tierra.</p>
+              </aside>
+            </div>
+          </article>
+
+          <!-- Obra 2 -->
+          <article class="catalog-card">
+            <figure class="catalog-figure">
+              <div class="catalog-placeholder" role="img" aria-label="Relieve en cartón y carbón de Sagitario A*">
+                <span>FIGURA 02 • ARCHIVO DIGITAL</span>
+              </div>
+              <figcaption class="catalog-caption">
+                <span>MEDIO ÚNICO:</span> Relieve en cartón corrugado y carbón vegetal
+              </figcaption>
+            </figure>
+            <div class="catalog-body">
+              <p class="catalog-meta">OBJETO: <strong>SAGITARIO A* (AGUJERO NEGRO)</strong></p>
+              <h3>Horizonte de Sucesos</h3>
+              <p class="catalog-author">Por Carlos M. • 5° Semestre</p>
+              <p class="catalog-text">
+                <strong>Motivación:</strong> «Empleé capas de cartón reciclado y bordes carbonizados para ilustrar la deformación gravitacional y la ausencia de luz en el núcleo galáctico.»
+              </p>
+              <aside class="science-note">
+                <span class="note-label">DATO CIENTÍFICO</span>
+                <p>Sagitario A* concentra una masa equivalente a 4 millones de soles dentro de un diámetro menor al de la órbita del planeta Mercurio.</p>
+              </aside>
+            </div>
+          </article>
+
+          <!-- Obra 3 -->
+          <article class="catalog-card">
+            <figure class="catalog-figure">
+              <div class="catalog-placeholder" role="img" aria-label="Ilustración con pigmentos botánicos de las fases lunares">
+                <span>FIGURA 03 • ARCHIVO DIGITAL</span>
+              </div>
+              <figcaption class="catalog-caption">
+                <span>MEDIO ÚNICO:</span> Pigmentos botánicos locales y hojas secas
+              </figcaption>
+            </figure>
+            <div class="catalog-body">
+              <p class="catalog-meta">OBJETO: <strong>CICLO SINÓDICO LUNAR</strong></p>
+              <h3>Calendario de Mareas y Siembra</h3>
+              <p class="catalog-author">Por Valeria G. • 1° Semestre</p>
+              <p class="catalog-text">
+                <strong>Motivación:</strong> «En la Costa Chica las fases lunares orientan los ciclos agrícolas; utilicé extractos naturales de jamaica y hojas secas para unir territorio y astronomía.»
+              </p>
+              <aside class="science-note">
+                <span class="note-label">DATO CIENTÍFICO</span>
+                <p>Debido a la fricción de las mareas oceánicas, la Luna se distancia de la Tierra a una tasa aproximada de 3.8 centímetros por año.</p>
+              </aside>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. ARCHIVO HISTÓRICO Y MURAL PERMANENTE -->
+    <section id="archivo" class="section section-paper" aria-labelledby="archivo-heading">
+      <div class="container">
+        <header class="editorial-header">
+          <p class="section-label">04 / MEMORIA INSTITUCIONAL</p>
+          <h2 id="archivo-heading">Archivo Histórico y Mural Astronómico</h2>
+          <p class="section-intro">
+            Registro cronológico de ediciones. La pieza ganadora de cada año se integra de forma permanente al acervo mural de la Preparatoria No. 44.
+          </p>
+        </header>
+
+        <div class="archive-list">
+          <article class="archive-row">
+            <div class="archive-year">
+              <span class="year-num">2026</span>
+              <span class="year-tag">EDICIÓN I • FUNDACIONAL</span>
+            </div>
+            <div class="archive-details">
+              <h3>Inauguración del Mural Astronómico Institucional</h3>
+              <p><strong>Sede:</strong> Escuela Preparatoria No. 44 "Plan de Ayutla", Ayutla de los Libres, Guerrero.</p>
+              <p>Primera emisión del certamen STEAM. En etapa de recepción digital de propuestas para seleccionar la primera obra que será enmarcada y montada en el plantel.</p>
+            </div>
+          </article>
+
+          <article class="archive-row archive-upcoming">
+            <div class="archive-year">
+              <span class="year-num">2027</span>
+              <span class="year-tag">EDICIÓN II • PROYECTADA</span>
+            </div>
+            <div class="archive-details">
+              <h3>Expansión del Acervo y Catálogo Impreso</h3>
+              <p>Incorporación de la segunda pieza ganadora al muro institucional y publicación de memoria divulgativa estudiantil.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA SOBRIO -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">1er Concurso Anual de Arte Astronómico</p>
+        <p>Escuela Preparatoria No. 44 "Plan de Ayutla" • Ayutla de los Libres, Guerrero, México.</p>
+      </div>
+      <p class="footer-meta">Iniciativa STEAM autónoma de divulgación científica y apropiación social del conocimiento.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
